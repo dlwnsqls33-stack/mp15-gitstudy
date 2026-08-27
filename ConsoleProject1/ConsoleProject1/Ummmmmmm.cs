@@ -9,4 +9,9 @@ public class Ummmmmmm : Monster
         Damage = 20;
         Speed = 20;
     }
+
+    public override void canJump(int value)
+    {
+        base.canJump(int.Parse(value.ToString()));
+    }
 }
